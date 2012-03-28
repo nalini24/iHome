@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4DD5F0CA151ECEAA00A354C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD5F0C9151ECEAA00A354C1 /* UIKit.framework */; };
+		4DD5F0CC151ECEAA00A354C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD5F0CB151ECEAA00A354C1 /* Foundation.framework */; };
+		4DD5F0CE151ECEAA00A354C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD5F0CD151ECEAA00A354C1 /* CoreGraphics.framework */; };
+		4DD5F0D4151ECEAA00A354C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DD5F0D2151ECEAA00A354C1 /* InfoPlist.strings */; };
+		4DD5F0D6151ECEAA00A354C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD5F0D5151ECEAA00A354C1 /* main.m */; };
+		4DD5F0DA151ECEAA00A354C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD5F0D9151ECEAA00A354C1 /* AppDelegate.m */; };
+		4DD5F0DD151ECEAA00A354C1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD5F0DB151ECEAA00A354C1 /* MainStoryboard_iPhone.storyboard */; };
+		4DD5F0E0151ECEAA00A354C1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DD5F0DE151ECEAA00A354C1 /* MainStoryboard_iPad.storyboard */; };
+		4DD5F0E3151ECEAB00A354C1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD5F0E2151ECEAB00A354C1 /* FirstViewController.m */; };
+		4DD5F0E5151ECEAB00A354C1 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD5F0E4151ECEAB00A354C1 /* first.png */; };
+		4DD5F0E7151ECEAB00A354C1 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD5F0E6151ECEAB00A354C1 /* first@2x.png */; };
+		4DD5F0EA151ECEAB00A354C1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD5F0E9151ECEAB00A354C1 /* SecondViewController.m */; };
+		4DD5F0EC151ECEAB00A354C1 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD5F0EB151ECEAB00A354C1 /* second.png */; };
+		4DD5F0EE151ECEAB00A354C1 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD5F0ED151ECEAB00A354C1 /* second@2x.png */; };
+		4DD5F0F6151ECEAB00A354C1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD5F0F5151ECEAB00A354C1 /* SenTestingKit.framework */; };
+		4DD5F0F7151ECEAB00A354C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD5F0C9151ECEAA00A354C1 /* UIKit.framework */; };
+		4DD5F0F8151ECEAB00A354C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD5F0CB151ECEAA00A354C1 /* Foundation.framework */; };
+		4DD5F100151ECEAB00A354C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DD5F0FE151ECEAB00A354C1 /* InfoPlist.strings */; };
+		4DD5F103151ECEAB00A354C1 /* iHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD5F102151ECEAB00A354C1 /* iHomeTests.m */; };
+		4DD5F10D151ED1C400A354C1 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD5F10C151ED1C400A354C1 /* play.png */; };
+		4DD5F10F151ED1C900A354C1 /* photos.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD5F10E151ED1C900A354C1 /* photos.png */; };
+		4DD5F111151ED1CD00A354C1 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD5F110151ED1CD00A354C1 /* house.png */; };
+		4DD5F113151ED1D000A354C1 /* games.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD5F112151ED1D000A354C1 /* games.png */; };
+		4DD5F115151ED1D400A354C1 /* clapboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DD5F114151ED1D400A354C1 /* clapboard.png */; };
+		83411E3815200A1F00115013 /* GamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83411E3715200A1F00115013 /* GamesViewController.m */; };
+		8385E938151FB2C6003C8D27 /* RingTonesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8385E937151FB2C6003C8D27 /* RingTonesViewController.m */; };
+		8385E93F151FBADA003C8D27 /* fifaicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8385E93A151FBADA003C8D27 /* fifaicon.png */; };
+		8385E940151FBADA003C8D27 /* freebyicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8385E93B151FBADA003C8D27 /* freebyicon.png */; };
+		8385E941151FBADA003C8D27 /* gameicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8385E93C151FBADA003C8D27 /* gameicon.png */; };
+		8385E942151FBADA003C8D27 /* mainicon-about.png in Resources */ = {isa = PBXBuildFile; fileRef = 8385E93D151FBADA003C8D27 /* mainicon-about.png */; };
+		8385E943151FBADA003C8D27 /* wallpapericon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8385E93E151FBADA003C8D27 /* wallpapericon.png */; };
+		8385E949151FBE66003C8D27 /* MusicVideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8385E948151FBE66003C8D27 /* MusicVideosViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DD5F0F9151ECEAB00A354C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DD5F0BC151ECEAA00A354C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DD5F0C4151ECEAA00A354C1;
+			remoteInfo = iHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4DD5F0C5151ECEAA00A354C1 /* iHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD5F0C9151ECEAA00A354C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4DD5F0CB151ECEAA00A354C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4DD5F0CD151ECEAA00A354C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4DD5F0D1151ECEAA00A354C1 /* iHome-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHome-Info.plist"; sourceTree = "<group>"; };
+		4DD5F0D3151ECEAA00A354C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4DD5F0D5151ECEAA00A354C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DD5F0D7151ECEAA00A354C1 /* iHome-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iHome-Prefix.pch"; sourceTree = "<group>"; };
+		4DD5F0D8151ECEAA00A354C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DD5F0D9151ECEAA00A354C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DD5F0DC151ECEAA00A354C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		4DD5F0DF151ECEAA00A354C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		4DD5F0E1151ECEAA00A354C1 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4DD5F0E2151ECEAB00A354C1 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4DD5F0E4151ECEAB00A354C1 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		4DD5F0E6151ECEAB00A354C1 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		4DD5F0E8151ECEAB00A354C1 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4DD5F0E9151ECEAB00A354C1 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4DD5F0EB151ECEAB00A354C1 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		4DD5F0ED151ECEAB00A354C1 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		4DD5F0F4151ECEAB00A354C1 /* iHomeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iHomeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD5F0F5151ECEAB00A354C1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4DD5F0FD151ECEAB00A354C1 /* iHomeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHomeTests-Info.plist"; sourceTree = "<group>"; };
+		4DD5F0FF151ECEAB00A354C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4DD5F101151ECEAB00A354C1 /* iHomeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iHomeTests.h; sourceTree = "<group>"; };
+		4DD5F102151ECEAB00A354C1 /* iHomeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iHomeTests.m; sourceTree = "<group>"; };
+		4DD5F10C151ED1C400A354C1 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		4DD5F10E151ED1C900A354C1 /* photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photos.png; sourceTree = "<group>"; };
+		4DD5F110151ED1CD00A354C1 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		4DD5F112151ED1D000A354C1 /* games.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = games.png; sourceTree = "<group>"; };
+		4DD5F114151ED1D400A354C1 /* clapboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clapboard.png; sourceTree = "<group>"; };
+		83411E3615200A1F00115013 /* GamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamesViewController.h; sourceTree = "<group>"; };
+		83411E3715200A1F00115013 /* GamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamesViewController.m; sourceTree = "<group>"; };
+		8385E936151FB2C6003C8D27 /* RingTonesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RingTonesViewController.h; sourceTree = "<group>"; };
+		8385E937151FB2C6003C8D27 /* RingTonesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RingTonesViewController.m; sourceTree = "<group>"; };
+		8385E93A151FBADA003C8D27 /* fifaicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fifaicon.png; sourceTree = "<group>"; };
+		8385E93B151FBADA003C8D27 /* freebyicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = freebyicon.png; sourceTree = "<group>"; };
+		8385E93C151FBADA003C8D27 /* gameicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameicon.png; sourceTree = "<group>"; };
+		8385E93D151FBADA003C8D27 /* mainicon-about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mainicon-about.png"; sourceTree = "<group>"; };
+		8385E93E151FBADA003C8D27 /* wallpapericon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallpapericon.png; sourceTree = "<group>"; };
+		8385E947151FBE66003C8D27 /* MusicVideosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicVideosViewController.h; sourceTree = "<group>"; };
+		8385E948151FBE66003C8D27 /* MusicVideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicVideosViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DD5F0C2151ECEAA00A354C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD5F0CA151ECEAA00A354C1 /* UIKit.framework in Frameworks */,
+				4DD5F0CC151ECEAA00A354C1 /* Foundation.framework in Frameworks */,
+				4DD5F0CE151ECEAA00A354C1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD5F0F0151ECEAB00A354C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD5F0F6151ECEAB00A354C1 /* SenTestingKit.framework in Frameworks */,
+				4DD5F0F7151ECEAB00A354C1 /* UIKit.framework in Frameworks */,
+				4DD5F0F8151ECEAB00A354C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DD5F0BA151ECEAA00A354C1 = {
+			isa = PBXGroup;
+			children = (
+				4DD5F0CF151ECEAA00A354C1 /* iHome */,
+				4DD5F0FB151ECEAB00A354C1 /* iHomeTests */,
+				4DD5F0C8151ECEAA00A354C1 /* Frameworks */,
+				4DD5F0C6151ECEAA00A354C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4DD5F0C6151ECEAA00A354C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DD5F0C5151ECEAA00A354C1 /* iHome.app */,
+				4DD5F0F4151ECEAB00A354C1 /* iHomeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DD5F0C8151ECEAA00A354C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DD5F0C9151ECEAA00A354C1 /* UIKit.framework */,
+				4DD5F0CB151ECEAA00A354C1 /* Foundation.framework */,
+				4DD5F0CD151ECEAA00A354C1 /* CoreGraphics.framework */,
+				4DD5F0F5151ECEAB00A354C1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4DD5F0CF151ECEAA00A354C1 /* iHome */ = {
+			isa = PBXGroup;
+			children = (
+				4DD5F0D8151ECEAA00A354C1 /* AppDelegate.h */,
+				4DD5F0D9151ECEAA00A354C1 /* AppDelegate.m */,
+				4DD5F0DB151ECEAA00A354C1 /* MainStoryboard_iPhone.storyboard */,
+				4DD5F0DE151ECEAA00A354C1 /* MainStoryboard_iPad.storyboard */,
+				4DD5F0E1151ECEAA00A354C1 /* FirstViewController.h */,
+				4DD5F0E2151ECEAB00A354C1 /* FirstViewController.m */,
+				4DD5F0E8151ECEAB00A354C1 /* SecondViewController.h */,
+				4DD5F0E9151ECEAB00A354C1 /* SecondViewController.m */,
+				8385E936151FB2C6003C8D27 /* RingTonesViewController.h */,
+				8385E937151FB2C6003C8D27 /* RingTonesViewController.m */,
+				8385E947151FBE66003C8D27 /* MusicVideosViewController.h */,
+				8385E948151FBE66003C8D27 /* MusicVideosViewController.m */,
+				83411E3615200A1F00115013 /* GamesViewController.h */,
+				83411E3715200A1F00115013 /* GamesViewController.m */,
+				8385E944151FBAE4003C8D27 /* Images */,
+				4DD5F0D0151ECEAA00A354C1 /* Supporting Files */,
+			);
+			path = iHome;
+			sourceTree = "<group>";
+		};
+		4DD5F0D0151ECEAA00A354C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DD5F0D1151ECEAA00A354C1 /* iHome-Info.plist */,
+				4DD5F0D2151ECEAA00A354C1 /* InfoPlist.strings */,
+				4DD5F0D5151ECEAA00A354C1 /* main.m */,
+				4DD5F0D7151ECEAA00A354C1 /* iHome-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DD5F0FB151ECEAB00A354C1 /* iHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DD5F101151ECEAB00A354C1 /* iHomeTests.h */,
+				4DD5F102151ECEAB00A354C1 /* iHomeTests.m */,
+				4DD5F0FC151ECEAB00A354C1 /* Supporting Files */,
+			);
+			path = iHomeTests;
+			sourceTree = "<group>";
+		};
+		4DD5F0FC151ECEAB00A354C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DD5F0FD151ECEAB00A354C1 /* iHomeTests-Info.plist */,
+				4DD5F0FE151ECEAB00A354C1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8385E944151FBAE4003C8D27 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4DD5F10E151ED1C900A354C1 /* photos.png */,
+				4DD5F114151ED1D400A354C1 /* clapboard.png */,
+				4DD5F110151ED1CD00A354C1 /* house.png */,
+				4DD5F10C151ED1C400A354C1 /* play.png */,
+				4DD5F112151ED1D000A354C1 /* games.png */,
+				4DD5F0E4151ECEAB00A354C1 /* first.png */,
+				4DD5F0E6151ECEAB00A354C1 /* first@2x.png */,
+				4DD5F0EB151ECEAB00A354C1 /* second.png */,
+				4DD5F0ED151ECEAB00A354C1 /* second@2x.png */,
+				8385E93A151FBADA003C8D27 /* fifaicon.png */,
+				8385E93B151FBADA003C8D27 /* freebyicon.png */,
+				8385E93C151FBADA003C8D27 /* gameicon.png */,
+				8385E93D151FBADA003C8D27 /* mainicon-about.png */,
+				8385E93E151FBADA003C8D27 /* wallpapericon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DD5F0C4151ECEAA00A354C1 /* iHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD5F106151ECEAB00A354C1 /* Build configuration list for PBXNativeTarget "iHome" */;
+			buildPhases = (
+				4DD5F0C1151ECEAA00A354C1 /* Sources */,
+				4DD5F0C2151ECEAA00A354C1 /* Frameworks */,
+				4DD5F0C3151ECEAA00A354C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHome;
+			productName = iHome;
+			productReference = 4DD5F0C5151ECEAA00A354C1 /* iHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DD5F0F3151ECEAB00A354C1 /* iHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD5F109151ECEAB00A354C1 /* Build configuration list for PBXNativeTarget "iHomeTests" */;
+			buildPhases = (
+				4DD5F0EF151ECEAB00A354C1 /* Sources */,
+				4DD5F0F0151ECEAB00A354C1 /* Frameworks */,
+				4DD5F0F1151ECEAB00A354C1 /* Resources */,
+				4DD5F0F2151ECEAB00A354C1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD5F0FA151ECEAB00A354C1 /* PBXTargetDependency */,
+			);
+			name = iHomeTests;
+			productName = iHomeTests;
+			productReference = 4DD5F0F4151ECEAB00A354C1 /* iHomeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DD5F0BC151ECEAA00A354C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4DD5F0BF151ECEAA00A354C1 /* Build configuration list for PBXProject "iHome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4DD5F0BA151ECEAA00A354C1;
+			productRefGroup = 4DD5F0C6151ECEAA00A354C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DD5F0C4151ECEAA00A354C1 /* iHome */,
+				4DD5F0F3151ECEAB00A354C1 /* iHomeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DD5F0C3151ECEAA00A354C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD5F0D4151ECEAA00A354C1 /* InfoPlist.strings in Resources */,
+				4DD5F0DD151ECEAA00A354C1 /* MainStoryboard_iPhone.storyboard in Resources */,
+				4DD5F0E0151ECEAA00A354C1 /* MainStoryboard_iPad.storyboard in Resources */,
+				4DD5F0E5151ECEAB00A354C1 /* first.png in Resources */,
+				4DD5F0E7151ECEAB00A354C1 /* first@2x.png in Resources */,
+				4DD5F0EC151ECEAB00A354C1 /* second.png in Resources */,
+				4DD5F0EE151ECEAB00A354C1 /* second@2x.png in Resources */,
+				4DD5F10D151ED1C400A354C1 /* play.png in Resources */,
+				4DD5F10F151ED1C900A354C1 /* photos.png in Resources */,
+				4DD5F111151ED1CD00A354C1 /* house.png in Resources */,
+				4DD5F113151ED1D000A354C1 /* games.png in Resources */,
+				4DD5F115151ED1D400A354C1 /* clapboard.png in Resources */,
+				8385E93F151FBADA003C8D27 /* fifaicon.png in Resources */,
+				8385E940151FBADA003C8D27 /* freebyicon.png in Resources */,
+				8385E941151FBADA003C8D27 /* gameicon.png in Resources */,
+				8385E942151FBADA003C8D27 /* mainicon-about.png in Resources */,
+				8385E943151FBADA003C8D27 /* wallpapericon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD5F0F1151ECEAB00A354C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD5F100151ECEAB00A354C1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DD5F0F2151ECEAB00A354C1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DD5F0C1151ECEAA00A354C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD5F0D6151ECEAA00A354C1 /* main.m in Sources */,
+				4DD5F0DA151ECEAA00A354C1 /* AppDelegate.m in Sources */,
+				4DD5F0E3151ECEAB00A354C1 /* FirstViewController.m in Sources */,
+				4DD5F0EA151ECEAB00A354C1 /* SecondViewController.m in Sources */,
+				8385E938151FB2C6003C8D27 /* RingTonesViewController.m in Sources */,
+				8385E949151FBE66003C8D27 /* MusicVideosViewController.m in Sources */,
+				83411E3815200A1F00115013 /* GamesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD5F0EF151ECEAB00A354C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD5F103151ECEAB00A354C1 /* iHomeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DD5F0FA151ECEAB00A354C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DD5F0C4151ECEAA00A354C1 /* iHome */;
+			targetProxy = 4DD5F0F9151ECEAB00A354C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4DD5F0D2151ECEAA00A354C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD5F0D3151ECEAA00A354C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4DD5F0DB151ECEAA00A354C1 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD5F0DC151ECEAA00A354C1 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4DD5F0DE151ECEAA00A354C1 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD5F0DF151ECEAA00A354C1 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4DD5F0FE151ECEAB00A354C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD5F0FF151ECEAB00A354C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DD5F104151ECEAB00A354C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DD5F105151ECEAB00A354C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DD5F107151ECEAB00A354C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHome/iHome-Prefix.pch";
+				INFOPLIST_FILE = "iHome/iHome-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4DD5F108151ECEAB00A354C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHome/iHome-Prefix.pch";
+				INFOPLIST_FILE = "iHome/iHome-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4DD5F10A151ECEAB00A354C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iHome.app/iHome";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHome/iHome-Prefix.pch";
+				INFOPLIST_FILE = "iHomeTests/iHomeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4DD5F10B151ECEAB00A354C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iHome.app/iHome";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iHome/iHome-Prefix.pch";
+				INFOPLIST_FILE = "iHomeTests/iHomeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DD5F0BF151ECEAA00A354C1 /* Build configuration list for PBXProject "iHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD5F104151ECEAB00A354C1 /* Debug */,
+				4DD5F105151ECEAB00A354C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD5F106151ECEAB00A354C1 /* Build configuration list for PBXNativeTarget "iHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD5F107151ECEAB00A354C1 /* Debug */,
+				4DD5F108151ECEAB00A354C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD5F109151ECEAB00A354C1 /* Build configuration list for PBXNativeTarget "iHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DD5F10A151ECEAB00A354C1 /* Debug */,
+				4DD5F10B151ECEAB00A354C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DD5F0BC151ECEAA00A354C1 /* Project object */;
+}
